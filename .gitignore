@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environment ---
+venv/
+env/
+.env/
+env.bak/
+venv.bak/
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- PaddlePaddle/OCR Cache ---
+# File cache model ini bisa sangat besar, jangan di-upload
+.paddlex/
+.paddleocr/
+
+# --- Project Outputs ---
+# Mengabaikan folder hasil unduhan agar tidak memenuhi repo
+outputs/
+
+# --- Log Files ---
+*.log

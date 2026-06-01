@@ -1,0 +1,7 @@
+gradio
+playwright
+Pillow
+img2pdf
+deep-translator
+paddleocr
+paddlepaddle
