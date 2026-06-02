@@ -529,40 +529,6 @@ with gr.Blocks(
         outputs=translate_checkbox
     )
 
-    # --- Examples ---
-    gr.Examples(
-        examples=[
-            [
-                "./outputs",
-                "Solo Leveling",
-                "https://example.com/comic/solo-leveling-chapter-01/",
-                True, True, False, True, False, "English",
-                True, 85,
-            ],
-            [
-                "./outputs",
-                "One Piece",
-                "https://example.com/manga/one-piece-chapter-1100/",
-                True, False, False, False, True, "Indonesian",
-                False, 100,
-            ],
-        ],
-        inputs=[
-            base_dir_input,
-            comic_title_input,
-            url_input,
-            ocr_checkbox,
-            translate_checkbox,
-            use_gpu_ocr_cb,
-            pdf_checkbox,
-            image_checkbox,
-            lang_dropdown,
-            auto_compress_cb,
-            auto_slider,
-        ]
-    )
-
-
 if __name__ == "__main__":
     print("=" * 60)
     print("  ComicScraper WebUI")
