@@ -13,7 +13,11 @@
 ---
 
 ## 🖼️ UI Overview
+<p align="center">
+<img width="1168" height="834" alt="image" src="https://github.com/user-attachments/assets/cad9ffc4-6e3e-4869-9b1e-f6bb93aae91f" />
+<img width="1189" height="430" alt="image" src="https://github.com/user-attachments/assets/1fc19ad5-c057-4fcb-a60d-665bd61ae8b7" />
 
+</p>
 **Core Functionalities:**
 - **Automated Scraper**: Scrapes comic chapters with intelligent lazy-load handling.
 - **Smart Stitching**: Automatically merges pages into long strips. Handles ultra-high resolution via intelligent PNG fallback.
